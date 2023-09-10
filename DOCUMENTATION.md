@@ -6,6 +6,8 @@ This document provides detailed information on how to use the REST API for the "
 > Swagger UI for the API is hosted on [SwaggerUI](https://hgnxbackend-prmpsmart.b4a.run/docs)
 >
 > LIVE API Endpoint is https://hgnxbackend-prmpsmart.b4a.run/api
+>
+> For the testing script go to [test.py](test.py)
 
 
 ## Table of Contents

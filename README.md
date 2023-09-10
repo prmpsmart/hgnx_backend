@@ -3,20 +3,35 @@
 This project provides a simple REST API for managing person records, allowing you to perform CRUD (Create, Read, Update, Delete) operations. This README.md file contains detailed instructions on setting up, running, and using the API.
 
 > Swagger UI for the API is hosted on [SwaggerUI](https://hgnxbackend-prmpsmart.b4a.run/docs)
+>
+> LIVE API Endpoint is https://hgnxbackend-prmpsmart.b4a.run/api
+>
+> For the documentation go to [DOCUMENTATION.md](DOCUMENTATION.md)
+>
+> For the testing script go to [test.py](test.py)
 
 ## Table of Contents
 
+- [Model Diagrams](#model-diagrams)
 - [Prerequisites](#prerequisites)
 - [Getting Started](#getting-started)
   - [1. Clone the Repository](#1-clone-the-repository)
   - [2. Install Dependencies](#2-install-dependencies)
   - [3. Run the API Locally](#3-run-the-api-locally)
-- [Model Diagrams](#model-diagrams)
 - [API Endpoints](#api-endpoints)
 - [Request/Response Formats](#requestresponse-formats)
 - [Sample API Usage](#sample-api-usage)
 - [Known Limitations and Assumptions](#known-limitations-and-assumptions)
 - [Deployment](#deployment)
+
+---
+
+## Model Diagrams
+
+- Unified Modeling Language (UML)
+> ![uml](uml.png)
+-  Entity-Relationship Diagram (ERD)
+> ![erd](erd.png)
 
 ---
 
@@ -62,15 +77,6 @@ uvicorn main:app
 ```
 
 This will start the API server, and it will be available at `http://127.0.0.1:8000`.
-
----
-
-## Model Diagrams
-
-- Unified Modeling Language (UML)
-> ![uml](uml.png)
--  Entity-Relationship Diagram (ERD)
-> ![erd](erd.png)
 
 ---
 
@@ -195,6 +201,7 @@ Here are some sample API usage scenarios:
    import requests
 
    api_url = "http://127.0.0.1:8000/api/"
+   live_api_url = "https://hgnxbackend-prmpsmart.b4a.run/api"
 
    data = {
        "name": "Alice Johnson",
@@ -211,6 +218,7 @@ Here are some sample API usage scenarios:
    import requests
 
    api_url = "http://127.0.0.1:8000/api/Alice%20Johnson"
+   live_api_url = "https://hgnxbackend-prmpsmart.b4a.run/api/Alice%20Johnson"
 
    response = requests.get(api_url)
    print(response.json())
@@ -222,6 +230,7 @@ Here are some sample API usage scenarios:
    import requests
 
    api_url = "http://127.0.0.1:8000/api/Alice%20Johnson"
+   live_api_url = "https://hgnxbackend-prmpsmart.b4a.run/api/Alice%20Johnson"
 
    data = {
        "age": 26
@@ -237,6 +246,7 @@ Here are some sample API usage scenarios:
    import requests
 
    api_url = "http://127.0.0.1:8000/api/Alice%20Johnson"
+   live_api_url = "https://hgnxbackend-prmpsmart.b4a.run/api/Alice%20Johnson"
 
    response = requests.delete(api_url)
    print(response.json())
