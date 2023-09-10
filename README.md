@@ -1,5 +1,4 @@
-
-# FastAPI CRUD API for api
+# A simple REST API capable of CRUD operations on a "person" resource CRUD API
 
 This project provides a simple REST API for managing person records, allowing you to perform CRUD (Create, Read, Update, Delete) operations. This README.md file contains detailed instructions on setting up, running, and using the API.
 

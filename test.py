@@ -1,6 +1,7 @@
 import requests
 
 base_url = "http://localhost:8000"
+base_url = "https://hgnxbackend-prmpsmart.b4a.run"
 name = "Miracle Apata"
 age = '24'
 
