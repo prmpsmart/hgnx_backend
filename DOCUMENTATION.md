@@ -3,6 +3,11 @@
 
 This document provides detailed information on how to use the REST API for the "Person" resource. Please refer to this documentation for setup instructions, request/response formats, sample API usage, and any known limitations or assumptions made during development.
 
+> Swagger UI for the API is hosted on [SwaggerUI](https://hgnxbackend-prmpsmart.b4a.run/docs)
+>
+> LIVE API Endpoint is https://hgnxbackend-prmpsmart.b4a.run/api
+
+
 ## Table of Contents
 
 - [Setup Instructions](#setup-instructions)

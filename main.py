@@ -3,7 +3,7 @@ from database import *
 from api_models import *
 
 app = FastAPI(
-    title="Stage Two Task: Create and Host an endpoint",
+    title="Stage Two Task: A simple REST API capable of CRUD operations on a 'person' resource.",
     version="1.0.0",
     on_shutdown=[conn.close],
 )

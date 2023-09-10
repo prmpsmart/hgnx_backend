@@ -1,6 +1,8 @@
-# A simple REST API capable of CRUD operations on a "person" resource CRUD API
+# A simple REST API capable of CRUD operations on a "person" resource.
 
 This project provides a simple REST API for managing person records, allowing you to perform CRUD (Create, Read, Update, Delete) operations. This README.md file contains detailed instructions on setting up, running, and using the API.
+
+> Swagger UI for the API is hosted on [SwaggerUI](https://hgnxbackend-prmpsmart.b4a.run/docs)
 
 ## Table of Contents
 
@@ -9,6 +11,7 @@ This project provides a simple REST API for managing person records, allowing yo
   - [1. Clone the Repository](#1-clone-the-repository)
   - [2. Install Dependencies](#2-install-dependencies)
   - [3. Run the API Locally](#3-run-the-api-locally)
+- [Model Diagrams](#model-diagrams)
 - [API Endpoints](#api-endpoints)
 - [Request/Response Formats](#requestresponse-formats)
 - [Sample API Usage](#sample-api-usage)
@@ -59,6 +62,15 @@ uvicorn main:app
 ```
 
 This will start the API server, and it will be available at `http://127.0.0.1:8000`.
+
+---
+
+## Model Diagrams
+
+- Unified Modeling Language (UML)
+> ![uml](uml.png)
+-  Entity-Relationship Diagram (ERD)
+> ![erd](erd.png)
 
 ---
 
